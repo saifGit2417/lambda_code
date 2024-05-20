@@ -58,3 +58,10 @@ function isEqual(arr) {
 console.log("isEqual(arr): ", isEqual(arr));
 
 // [] > 9
+
+
+/*
+git init
+git add .
+git commit -m 'commit message'
+*/ 
