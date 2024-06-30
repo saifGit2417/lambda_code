@@ -40,8 +40,14 @@ async function fun() {
 
 // async await is method to consume promises just like .then and .catch is method to consume promises
 
-// New Promise() > promise constructor is only method to create promises in js 
+// New Promise() > promise constructor is only method to create promises in js
 // promise.resolve() - promise.settle and other methods are utility function of js which are subparts of promise constructor
+
+// instead of using generator function with .yield and .done we can use either async await and .then methods
+
+/*generator functions are type of function in which we can stop or resume the code execution , 
+at that particular line execution will stop and wait for future value to get obtain
+an then it will run the next line of logic*/
 
 let result = fun();
 
