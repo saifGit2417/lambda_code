@@ -44,6 +44,8 @@ deep dive in all the promise methods
 Methods of Promise: .all(), .any() , .finally(), .race()
 */ 
 
+//pillar 11 completed 
+
 async function callMeAsyncAwait() {
   try {
     let downloadFromUrlFunc = await downloadFromUrl("www.google.com");
