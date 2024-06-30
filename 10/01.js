@@ -56,6 +56,9 @@ downloadFromUrl("www.saif.com")
   })
   .then((res) => {
     console.log("res: ", res);
+  })
+  .finally((res) => {
+    console.log("finally block is done");
   });
 
 async function processUrls() {
