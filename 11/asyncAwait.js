@@ -38,6 +38,12 @@ write your logic that will run irrespective of you promise getting resolve or re
 
 // use .catch method when you are consuming promise using .then . catch method
 
+/*
+deep dive in all the promise methods
+
+Methods of Promise: .all(), .any() , .finally(), .race()
+*/ 
+
 async function callMeAsyncAwait() {
   try {
     let downloadFromUrlFunc = await downloadFromUrl("www.google.com");
