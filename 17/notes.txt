@@ -1,0 +1,3 @@
+MVC architecture > modal , view and controller
+
+separation of concern and individual responsibility
